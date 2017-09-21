@@ -1,4 +1,9 @@
 " vi:syntax=vim
+" Buftabline custom override
+" hi BufTabLineFill guifg=#fff8eb guibg=#fff8eb
+" hi BufTabLineHidden guifg=#a09b97 guibg=#fff8eb
+" hi BufTabLineActive guifg=#524f4b guibg=#fff8eb
+" hi BufTabLineCurrent guifg=#609456 guibg=#fff1d7
 
 if !has('gui_running')
   execute "silent !/bin/sh $HOME/.nightshell/carbonized-light"
